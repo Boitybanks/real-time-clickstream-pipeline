@@ -100,6 +100,17 @@ streaming-pipeline/
     └── consumer.py        # consumes + windowed aggregation
 ```
 
+## Key Concepts Demonstrated
+
+- Event-Driven Architecture
+- Real-Time Data Streaming
+- Apache Kafka Concepts (via Redpanda)
+- Producers and Consumers
+- Topics and Consumer Groups
+- Windowed Aggregation
+- JSON Event Serialization
+- Docker Containerization
+
 ---
 
 ## 🛠️ Built With
@@ -114,3 +125,5 @@ streaming-pipeline/
 
 **Boitumelo Mbhele**
 GitHub: [@Boitybanks](https://github.com/Boitybanks)
+
+

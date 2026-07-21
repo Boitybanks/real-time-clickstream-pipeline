@@ -18,7 +18,7 @@ from kafka import KafkaProducer
 BROKER = "localhost:9092"
 TOPIC = "clickstream"
 
-EVENT_TYPES = ["view", "click", "add_to_cart", "purchase"]
+EVENT_TYPES = ["view", "click", "add_to_cart", "purchase"] 
 # Weighted so it behaves like a real funnel: lots of views, few purchases.
 EVENT_WEIGHTS = [0.55, 0.25, 0.13, 0.07]
 
